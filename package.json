@@ -1,0 +1,51 @@
+{
+  "name": "kiteconnect",
+  "version": "3.0.0",
+  "description": "The official JS client library for the Kite Connect trading APIs",
+  "main": "./lib/",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerodhatech/kiteconnectjs.git"
+  },
+  "keywords": [
+    "kiteconnect",
+    "kite",
+    "zerodha",
+    "rainmatter",
+    "trading",
+    "api",
+    "stock",
+    "market"
+  ],
+  "author": "Vivek R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerodhatech/kiteconnectjs/issues"
+  },
+  "homepage": "https://github.com/zerodhatech/kiteconnectjs#readme",
+  "dependencies": {
+    "asyncawait": "^1.0.7",
+    "axios": "^0.17.1",
+    "crypto-js": "^3.1.9-1",
+    "csv-reader": "^1.0.3",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "papaparse": "^4.3.6",
+    "promise": "^8.0.1",
+    "request": "^2.87.0",
+    "technicalindicators": "^1.1.11",
+    "unzipper": "^0.8.14",
+    "uuid": "^3.3.2",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.3.0",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1"
+  }
+}
